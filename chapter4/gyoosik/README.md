@@ -21,10 +21,10 @@ s.forEach(System.out::println); // 에러 발생함
 
 ## stream operation
 ### intermediate operations
- - Stream<T> filter(Pridicate<T>)
+ - Stream<T> filter(Predicate\<T>)
  - Stream<R> map(Function<T,R>)
  - Stream<T> limit(int)
- - Stream<T> sorted(Comparator<T>)
+ - Stream<T> sorted(Comparator\<T>)
  - Stream<T> distinct() # 중복 제거
 ### terminal operations
  - void forEach(Stream<>)
